@@ -42,7 +42,7 @@ function App() {
           {/* Favorites page receives favorites */}
           <Route 
             path="/favorites" 
-            element={<Favorites favorites={favorites} />} 
+            element={<Favorites favorites={favorites} setFavorites={setFavorites} />}
           />
         </Routes>
       </div>
